@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'UberMoveMedium';
+    src: url('/src/utils/font/UberMoveMedium.otf') format('opentype');
+}
+
+.dashboard-background {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}.dashboard-background {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.dashboard-title-container {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-title-text-container {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.dashboard-title-text-n1,
+.dashboard-title-text-n2,
+.dashboard-title-text-n3 {
+  margin-left: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 90%;
+  font-family: 'UberMoveMedium';
+}
+
+.dashboard-title-text-n1 {
+  margin-top: 15%;
+}
+
+.dashboard-title-contributor-container {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.dashboard-button-slide-container {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.slide-button-container {
+    height: 9%;
+    width: 78%;
+    margin-top: 30%;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+}
+
+.slide-button-bar-icon {
+  background:black !important;
+}
+
+
+.slide-button-bar {
+  background:black !important;
+}
+
+.dashboard-button-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dashboard-credit-container {
+    width: 83%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0E8345;
+    border-radius: 10px;
+}
+
+.dashboard-credit-text {
+    font-size: 100%;
+    color: #E8E8E8;
+    font-family: 'UberMoveBold';
+    margin-left: 5%;
+}
+
+.dashboard-credit-subtext {
+    font-size: 100%;
+    font-weight: 10%;
+    margin-top: 0;
+    margin-left: 5%;
+    color: #cdcccc;
+    font-family: 'UberMoveBold';
+}
+
+.dashboard-button-info-text {
+    color: #000000;
+    margin-top: 2%;
+    font-family: 'UberMoveBold';
+    font-size: 73%;
+  }
+
+.slide-button-bar {
+    background-color: #ff0000; /* Changez cette couleur selon vos besoins */
+}
