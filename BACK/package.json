@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API pour le site d'ascenseur epitech",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f .env.development nodemon index.js",
+    "start:dev": "env-cmd -f .env.development nodemon index.js",
+    "start:prod": "env-cmd -f .env.production nodemon index.js"
+  },
+  "author": "Akkodis",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "env-cmd": "^10.1.0",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1",
+    "react-slide-button": "^2.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "ws": "^8.18.0"
+  }
+}
