@@ -13,7 +13,9 @@ We decided to implement a login system on the site, without a registration optio
 
 
 
-
-
 ## Login page
+![Screenshot from 2024-09-20 10-29-14](https://github.com/user-attachments/assets/c63e5964-461d-46d1-8f46-f0ae4aa00e7f)
+
+
 ## Dashboard
+![Screenshot from 2024-09-20 10-30-02](https://github.com/user-attachments/assets/658718da-7792-48b4-baed-0de9e7b1794d)
