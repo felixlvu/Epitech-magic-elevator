@@ -1,0 +1,10 @@
+/auth:
+  get:
+    tags:
+      - Auth
+    description: "route d'authentification."
+    operationId: 'auth'
+    responses:
+      "200":
+        description: "Réussite"
+

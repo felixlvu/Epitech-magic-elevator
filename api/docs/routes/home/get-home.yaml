@@ -1,0 +1,9 @@
+ /:
+  get:
+    tags:
+      - Home
+    summary: renvoi accueil pour test.
+    description: test home.
+    responses:
+      200:
+        description: Réussite
