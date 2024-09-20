@@ -1,9 +1,0 @@
-/protected:
-  get:
-    tags:
-      - Protected
-    summary: route de protected.
-    description: protected.
-    responses:
-      200:
-        description: Réussite
